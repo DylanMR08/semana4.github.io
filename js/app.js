@@ -1,5 +1,5 @@
 let url = window.location.href;
-let swLoc = "semana4.github.io/service-worker.js";
+let swLoc = "/semana4.github.io/service-worker.js";
 
 if(navigator.serviceWorker){
     if(url.includes("localhost")){
